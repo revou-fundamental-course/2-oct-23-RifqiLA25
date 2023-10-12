@@ -1,0 +1,70 @@
+/* CSS yang sudah ada dalam file Anda */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #ff0000; /* Warna latar merah */
+}
+
+h1 {
+    color: #333;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* CSS untuk kalkulator dalam bentuk kartu */
+
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.card h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.card .input-container {
+    margin: 20px 0;
+}
+
+.card input, .card select, .card button {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #2e86de;
+}
+
+.card #result {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
